@@ -59,16 +59,16 @@ int main() {
     BankAccount account1(101, "John", 5000);
     BankAccount account2(102, "Alice", 3000);
 
-    // --- Account 1 Operations ---
-    cout << "===== Account 1 =====" << endl;
+    // Account 1 Operations 
+    cout << "Account 1" << endl;
     account1.displayAccount();
     account1.deposit(1000);
     account1.withdraw(2000);
 
     cout << endl;
 
-    // --- Account 2 Operations ---
-    cout << "===== Account 2 =====" << endl;
+    //  Account 2 Operations 
+    cout << "Account 2" << endl;
     account2.displayAccount();
     account2.deposit(500);
     account2.withdraw(4000); // Should trigger insufficient funds
